@@ -1,0 +1,43 @@
+$fontSizeHeaderTitle: 40px;
+$fontSizeHeaderText: 18px;
+$fontSizeMainText: 20px;
+$fontSizeMainTitle: 38px;
+$fontSizeHeaderTitleExtra: 50px;
+$colorBackground: #886F4A;
+$colorDark: #000000;
+$colorLight: #FFFFFF;
+$logo-img: url("../images/logo.jpg");
+
+
+$facebook-favicon: url("../images/favicons/facebook.png");
+$linkedin-favicon: url("../images/favicons/linkedin.png");
+$instagram-favicon: url("../images/favicons/instagram.png");
+
+$slider1: "../images/carousele/slider1.jpg";
+$slider2: "../images/carousele/slider2.jpg";
+$slider3: "../images/carousele/slider3.jpg";
+
+$room1: url("../images/room1.jpg");
+$room2: url("../images/room2.jpg");
+$room3: url("../images/room3.jpg");
+$room4: url("../images/room4.jpg");
+
+@mixin main_width($width,$height){
+  width: $width;
+  height: $height;
+}
+@mixin main_flexbox($content){
+  display: flex;
+  flex-direction: row;
+  justify-content: $content;
+  align-items: center;
+}
+@mixin favicon_footer{
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+}
+
+$fontsOpenSans: "OpenSansLight", Arial, sans-serif;
+$fontsRoboto: "RobotoLight", Arial, sans-serif;
+$fontsBungee: "Bungee", Arial, sans-serif;

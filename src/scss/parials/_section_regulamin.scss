@@ -1,0 +1,25 @@
+@import "variables";
+
+.regulamin_main_width{
+  width: 100vw;
+  height: 90vh;
+  background-color: $colorBackground;
+
+}
+.width_regulamin {
+  width: 85vw;
+  height: 80vh;
+  margin: 0 auto;
+  background-color: $colorDark;
+}
+
+.width_regulamin > h2{
+  font-size: $fontSizeHeaderTitle;
+  color: $colorBackground;
+  align-items: center;
+}
+
+.width_regulamin > ul > li{
+  font-size: $fontSizeMainText;
+  color: $colorLight;
+}

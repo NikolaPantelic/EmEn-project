@@ -1,0 +1,110 @@
+@import "variables";
+
+.width{
+  width: 100vw;
+  background-color: $colorBackground;
+  height: 500px;
+}
+.width_rooms{
+  background-color: $colorDark;
+  width: 85vw;
+  height: 400px;
+  margin: auto auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.room_picture{
+  width: 50%;
+  background-color: #FFFFFF;
+  display: inline-block;
+}
+.room_info{
+  width: 50%;
+  height: 400px;
+  position: relative;
+  display: inline-block;
+  h3{
+    font-size: $fontSizeHeaderTitle;
+    color: $colorBackground;
+    padding: 10px 10px;
+  }
+}
+.room_info p {
+  font-size: $fontSizeMainText;
+  color: $colorLight;
+  padding: 20px 20px;
+}
+
+.room_button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: $colorBackground;
+  border: none;
+  color: $colorLight;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+.room_button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.room_button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.room_button:hover span {
+  padding-right: 25px;
+}
+
+.room_button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.room1_picture{
+  background-image: $room1;
+  width: 50%;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.room2_picture{
+  background-image: $room2;
+  width: 50%;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.room3_picture{
+  background-image: $room3;
+  width: 50%;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.room4_picture{
+  background-image: $room4;
+  width: 50%;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }

@@ -1,0 +1,16 @@
+@import "variables";
+
+.header{
+  width: 100vw;
+  height: 110px;
+  background-color: $colorDark;
+  //display: flex;
+  //flex-direction: row;
+  //justify-content: space-between;
+  //align-items: center;
+  //border-bottom: 1px solid white;
+}
+.main_width{
+  width: 85vw;
+  margin: 0 auto;
+}

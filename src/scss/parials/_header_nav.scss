@@ -1,0 +1,21 @@
+@import "variables";
+
+.header_nav{
+  height: 40px;
+  list-style: none;
+  color: $colorLight;
+  //text-transform: uppercase;
+  li{
+    display: inline-block;
+    font-size: $fontSizeHeaderText;
+    font-weight: 100;
+    margin-right: 40px;
+    font-family: $fontsOpenSans;
+    padding-top: 15px;
+    &:hover{
+      color: $colorBackground;
+      cursor: pointer;
+
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@import "variables";
+
+.facebook_favicon{
+  @include favicon_footer;
+  background-image: $facebook-favicon;
+
+}
+.instagram_favicon{
+  @include favicon_footer;
+  background-image: $instagram-favicon ;
+}
+.linkedin_favicon{
+  @include favicon_footer;
+  background-image: $linkedin-favicon ;
+}
+.main_width{       //main_width changed to main__width because of diferent statment of mixin
+  @include main_width(85vw,140px);
+  border-top: 1px solid $colorLight;
+}
+.flex_box{
+  @include main_flexbox(flex-end);
+  background-color: #000000;
+}
