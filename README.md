@@ -24,6 +24,9 @@ In the moment of writing this readme my skils in React are much better,so I hope
 
 ## Getting Started
 
+* `clone` this repo
+* `npm install` all necessary npm packages
+
 #### `npm start`
 
 Runs the app in the development mode.<br>
